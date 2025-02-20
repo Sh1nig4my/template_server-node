@@ -1,0 +1,65 @@
+# Dipendenze
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build e output
+dist/
+build/
+out/
+*.js.map
+
+# File di ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Log
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor e IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.editorconfig
+.prettierrc
+.eslintrc
+
+# File temporanei
+tmp/
+temp/
+.tmp
+
+# File di coverage test
+coverage/
+.nyc_output/
+
+# MongoDB
+*.mongodb
+data/
+dump/
+mongodump/
+*.mongodb.gz
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache
+.cache/
+.npm/
+.yarn/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
