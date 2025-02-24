@@ -5,7 +5,7 @@
  "scripts": {
   "build": "tsc",
   "start": "node dist/index.js", 
-  "dev": "ts-node nodeCode/src/index.ts",
+  "dev": "ts-node src/index.ts",
   "typeorm": "typeorm-ts-node-commonjs"
 },
   "author": "",
